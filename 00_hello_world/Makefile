@@ -4,3 +4,4 @@ all: hello.pyx
 clean:
 	rm hello.c
 	rm hello.cpython*
+	rm -rf build
