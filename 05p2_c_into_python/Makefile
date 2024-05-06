@@ -1,7 +1,7 @@
-all: print_and_sum_list.pyx
+all: operations.cpp cpp_operations.pyx
 	python setup.py build_ext --inplace
 
 clean:
-	rm -f print_and_sum_list.c*
+	rm -f cpp_operations.cpp
 	rm -f *.cpython*
 	rm -rf build
